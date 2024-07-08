@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" styleClass="backgroundColor" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml_helloworld.registerController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="486.0" layoutX="181.0" layoutY="239.0" stroke="TRANSPARENT" strokeType="INSIDE" width="330.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.027450980618596077" green="0.2549019753932953" blue="0.45098039507865906" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.08627451211214066" green="0.4745098054409027" blue="0.6705882549285889" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="135.0" layoutX="-3.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1287.0">
+         <effect>
+            <DropShadow />
+         </effect>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.027450980618596077" green="0.2549019753932953" blue="0.45098039507865906" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.08627451211214066" green="0.4745098054409027" blue="0.6705882549285889" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Label layoutX="196.0" layoutY="312.0" text="yang cukup untuk 4 orang setiap hari." textFill="WHITE">
+         <font>
+            <Font name="Futura Md BT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="196.0" layoutY="294.0" text="1. Satu pohon besar dapat menyediakan oksigen" textFill="WHITE">
+         <font>
+            <Font name="Futura Md BT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Text fill="WHITE" layoutX="127.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FOREST FORCE">
+         <font>
+            <Font name="Futura Md BT Bold" size="60.0" />
+         </font>
+         <effect>
+            <DropShadow offsetY="5.0">
+               <color>
+                  <Color opacity="0.30000001192092896" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Text>
+      <ImageView fitHeight="117.0" fitWidth="140.0" layoutX="10.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@FORESTFORCELOGO.png" />
+         </image>
+         <effect>
+            <DropShadow offsetY="5.0">
+               <color>
+                  <Color opacity="0.30000001192092896" />
+               </color>
+            </DropShadow>
+         </effect>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="411.0" layoutX="811.0" layoutY="266.0" stroke="TRANSPARENT" strokeType="INSIDE" width="330.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.027450980618596077" green="0.2549019753932953" blue="0.45098039507865906" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.08627451211214066" green="0.4745098054409027" blue="0.6705882549285889" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Rectangle>
+      <ImageView fitHeight="43.0" fitWidth="41.0" layoutX="823.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@username.png" />
+         </image>
+         <effect>
+            <DropShadow offsetY="5.0">
+               <color>
+                  <Color opacity="0.30000001192092896" />
+               </color>
+            </DropShadow>
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="50.0" layoutX="823.0" layoutY="403.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@password.png" />
+         </image>
+         <effect>
+            <DropShadow offsetY="5.0">
+               <color>
+                  <Color opacity="0.30000001192092896" />
+               </color>
+            </DropShadow>
+         </effect>
+      </ImageView>
+      <Label layoutX="877.0" layoutY="299.0" text="DAFTARKAN DIRI ANDA!" textFill="WHITE">
+         <font>
+            <Font name="Futura Md BT Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usnTextField" layoutX="877.0" layoutY="349.0" prefHeight="25.0" prefWidth="236.0" promptText="Username">
+         <effect>
+            <DropShadow offsetY="5.0">
+               <color>
+                  <Color opacity="0.30000001192092896" />
+               </color>
+            </DropShadow>
+         </effect></TextField>
+      <TextField fx:id="pwTextField" layoutX="877.0" layoutY="411.0" prefHeight="25.0" prefWidth="236.0" promptText="Password">
+         <effect>
+            <DropShadow offsetY="5.0">
+               <color>
+                  <Color opacity="0.30000001192092896" />
+               </color>
+            </DropShadow>
+         </effect></TextField>
+      <Button fx:id="daftarButton" layoutX="929.0" layoutY="471.0" mnemonicParsing="false" onAction="#daftarButton" prefHeight="33.0" prefWidth="94.0" style="-fx-background-color: #C5FF95; -fx-background-radius: 90;" text="DAFTAR" textFill="WHITE">
+         <font>
+            <Font name="Futura Md BT Bold" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow offsetY="5.0">
+               <color>
+                  <Color opacity="0.30000001192092896" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Line endX="172.0" layoutX="940.0" layoutY="543.0" startX="-100.0" stroke="WHITE" strokeWidth="2.0" />
+      <Button fx:id="kembaliButton" layoutX="929.0" layoutY="580.0" mnemonicParsing="false" onAction="#kembaliButton" prefHeight="33.0" prefWidth="94.0" style="-fx-background-color: #C5FF95; -fx-background-radius: 90;" text="KEMBALI" textFill="WHITE">
+         <font>
+            <Font name="Futura Md BT Bold" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow offsetY="5.0">
+               <color>
+                  <Color opacity="0.30000001192092896" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Label fx:id="label" layoutX="836.0" layoutY="648.0" textFill="WHITE">
+         <font>
+            <Font name="Futura Md BT Bold" size="13.0" />
+         </font>
+      </Label>
+      <Line endX="-100.0" endY="244.0" layoutX="784.0" layoutY="484.0" startX="-100.0" startY="-270.0" stroke="WHITE" strokeWidth="2.0" />
+      <ImageView fitHeight="279.0" fitWidth="274.0" layoutX="28.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@funfact.png" />
+         </image>
+         <effect>
+            <DropShadow offsetY="5.0">
+               <color>
+                  <Color opacity="0.30000001192092896" />
+               </color>
+            </DropShadow>
+         </effect>
+      </ImageView>
+      <Label layoutX="196.0" layoutY="232.0" prefHeight="69.0" prefWidth="300.0" text="DID YOU KNOW?" textFill="WHITE">
+         <font>
+            <Font name="Futura Md BT Bold" size="34.0" />
+         </font>
+         <effect>
+            <DropShadow offsetY="5.0">
+               <color>
+                  <Color opacity="0.30000001192092896" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Label>
+      <Label layoutX="196.0" layoutY="342.0" text="2. Laut menyerap sekitar 30% karbon dioksida" textFill="WHITE">
+         <font>
+            <Font name="Futura Md BT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="196.0" layoutY="362.0" text="yang dihasilkan oleh aktivitas manusia." textFill="WHITE">
+         <font>
+            <Font name="Futura Md BT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="196.0" layoutY="393.0" text="3. Tahun 2016-2020 adalah periode lima tahun" textFill="WHITE">
+         <font>
+            <Font name="Futura Md BT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="196.0" layoutY="411.0" text="terpanas yang pernah tercatat." textFill="WHITE">
+         <font>
+            <Font name="Futura Md BT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="198.0" layoutY="444.0" text="4. Lebah berkontribusi lebih dari $15 miliar per " textFill="WHITE">
+         <font>
+            <Font name="Futura Md BT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="198.0" layoutY="464.0" text="per tahun pada ekonomi AS melalui penyerbukan." textFill="WHITE">
+         <font>
+            <Font name="Futura Md BT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="198.0" layoutY="497.0" text="5. Gurun Sahara bertumbuh sekitar 10% dalam" textFill="WHITE">
+         <font>
+            <Font name="Futura Md BT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="198.0" layoutY="519.0" text="100 tahun terakhir akibat perubahan iklim." textFill="WHITE">
+         <font>
+            <Font name="Futura Md BT Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

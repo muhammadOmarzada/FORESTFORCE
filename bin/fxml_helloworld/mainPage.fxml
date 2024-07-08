@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" styleClass="backgroundColor" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml_helloworld.mainController">
+   <children>
+      <BorderPane fx:id="mainPane" prefHeight="800.0" prefWidth="1280.0">
+         <left>
+            <VBox prefHeight="800.0" prefWidth="199.0" styleClass="backgroundColor2" stylesheets="@style.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Label text="DASHBOARD" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets left="32.5" top="20.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Futura Md BT Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="49.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@info%20logo.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="67.5" top="50.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <Button fx:id="informasiBT" mnemonicParsing="false" onAction="#handleInformasi" prefHeight="20.0" prefWidth="119.0" style="-fx-background-color: #C5FF95; -fx-background-radius: 90;" text="INFORMASI" textFill="WHITE">
+                     <font>
+                        <Font name="Futura Md BT Bold" size="11.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="32.5" top="15.0" />
+                     </VBox.margin>
+                     <effect>
+                        <DropShadow offsetY="5.0">
+                           <color>
+                              <Color opacity="0.30000001192092896" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </Button>
+                  <ImageView fitHeight="51.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@donasi.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="67.5" top="50.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <Button fx:id="donasiBT" mnemonicParsing="false" onAction="#handleDonasi" prefHeight="13.0" prefWidth="120.0" style="-fx-background-color: #C5FF95; -fx-background-radius: 90;" text="DONASI" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets left="32.5" top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Futura Md BT Bold" size="11.0" />
+                     </font>
+                     <effect>
+                        <DropShadow offsetY="5.0">
+                           <color>
+                              <Color opacity="0.30000001192092896" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </Button>
+                  <ImageView fitHeight="55.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@perkembangan%20.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="65.0" top="50.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <Button fx:id="perkembanganBT" mnemonicParsing="false" onAction="#handlePerkembangan" prefHeight="9.0" prefWidth="120.0" style="-fx-background-color: #C5FF95; -fx-background-radius: 90;" text="PERKEMBANGAN" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets left="32.5" top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Futura Md BT Bold" size="11.0" />
+                     </font>
+                     <effect>
+                        <DropShadow offsetY="5.0">
+                           <color>
+                              <Color opacity="0.30000001192092896" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </Button>
+                  <ImageView fitHeight="47.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@people_5363488.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="70.0" top="60.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <Button fx:id="komunitasBT" mnemonicParsing="false" onAction="#handleKomunitas" prefHeight="0.0" prefWidth="125.0" style="-fx-background-color: #C5FF95; -fx-background-radius: 90;" text="KOMUNITAS" textFill="WHITE">
+                     <font>
+                        <Font name="Futura Md BT Bold" size="11.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="32.5" top="15.0" />
+                     </VBox.margin>
+                     <effect>
+                        <DropShadow offsetY="5.0">
+                           <color>
+                              <Color opacity="0.30000001192092896" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </Button>
+                  <Label text="© FOREST FORCE 2024" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets left="32.5" top="180.0" />
+                     </VBox.margin>
+                  </Label>
+               </children></VBox>
+         </left>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" height="546.0" layoutX="151.0" layoutY="188.0" stroke="TRANSPARENT" strokeType="INSIDE" width="781.0">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.027450980618596077" green="0.2549019753932953" blue="0.45098039507865906" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="0.08627451211214066" green="0.4745098054409027" blue="0.6705882549285889" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Rectangle>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" height="96.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1082.0">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.027450980618596077" green="0.2549019753932953" blue="0.45098039507865906" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="0.08627451211214066" green="0.4745098054409027" blue="0.6705882549285889" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Rectangle>
+                  <Text fill="WHITE" layoutX="105.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FOREST FORCE">
+                     <font>
+                        <Font name="Futura Md BT Bold" size="60.0" />
+                     </font>
+                     <effect>
+                        <DropShadow offsetY="5.0">
+                           <color>
+                              <Color opacity="0.30000001192092896" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </Text>
+                  <ImageView fitHeight="83.0" fitWidth="91.0" layoutX="14.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@FORESTFORCELOGO.png" />
+                     </image>
+                     <effect>
+                        <DropShadow offsetY="5.0">
+                           <color>
+                              <Color opacity="0.30000001192092896" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="174.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INFOGRAFIS TENTANG MASALAH LINGKUNGAN">
+                     <font>
+                        <Font name="Futura Md BT Bold" size="30.0" />
+                     </font>
+                     <effect>
+                        <DropShadow offsetY="5.0">
+                           <color>
+                              <Color opacity="0.30000001192092896" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </Text>
+                  <ImageView fitHeight="487.0" fitWidth="743.0" layoutX="174.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Screenshot%20(282).png" />
+                     </image>
+                     <effect>
+                        <DropShadow offsetY="5.0">
+                           <color>
+                              <Color opacity="0.30000001192092896" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

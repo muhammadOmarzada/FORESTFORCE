@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml_helloworld.informasiController">
+   <children>
+      <ScrollPane prefHeight="800.0" prefWidth="1280.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1650.0" prefWidth="1280.0" styleClass="backgroundColor" stylesheets="@style.css">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" height="96.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1324.0">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.027450980618596077" green="0.2549019753932953" blue="0.45098039507865906" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="0.08627451211214066" green="0.4745098054409027" blue="0.6705882549285889" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Rectangle>
+                  <Text fill="WHITE" layoutX="105.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FOREST FORCE">
+                     <font>
+                        <Font name="Futura Md BT Bold" size="60.0" />
+                     </font>
+                     <effect>
+                        <DropShadow offsetY="5.0">
+                           <color>
+                              <Color opacity="0.30000001192092896" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </Text>
+                  <ImageView fitHeight="83.0" fitWidth="91.0" layoutX="14.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@FORESTFORCELOGO.png" />
+                     </image>
+                     <effect>
+                        <DropShadow offsetY="5.0">
+                           <color>
+                              <Color opacity="0.30000001192092896" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </ImageView>
+                  <Label layoutX="726.0" layoutY="125.0" text="Masyarakat Protes Terhadap Perubahan Iklim" textFill="WHITE">
+                     <font>
+                        <Font name="Futura Md BT Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="726.0" layoutY="151.0" text="yang Terjadi di Lingkungan Sekitar" textFill="WHITE">
+                     <font>
+                        <Font name="Futura Md BT Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="257.0" fitWidth="456.0" layoutX="726.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Screenshot%20(272).png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="724.0" layoutY="483.0" prefWidth="523.0" text="Ribuan orang dari berbagai latar belakang berkumpul di pusat kota untuk" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="724.0" layoutY="500.0" prefWidth="523.0" text="berpartisipasi dalam aksi demonstrasi global menuntut tindakan nyata terhadap" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="724.0" layoutY="517.0" prefWidth="523.0" text="perubahan iklim. Aksi yang berlangsung di Jakarta ini merupakan bagian dari" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="724.0" layoutY="534.0" prefWidth="523.0" text="gerakan internasional yang dikenal dengan nama &quot;Fridays for Future,&quot; yang" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="724.0" layoutY="551.0" prefWidth="523.0" text="dipelopori oleh aktivis muda asal Swedia, Greta Thunberg." textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="726.0" layoutY="454.0" prefHeight="20.0" prefWidth="271.0" text="ADMIN - FOREST FORCE, Rabu 8 Juli 2024">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="257.0" fitWidth="460.0" layoutX="724.0" layoutY="665.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Screenshot%20(274).png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="724.0" layoutY="609.0" text="Viral! Sekelompok Pemuda Asal Indonesia" textFill="WHITE">
+                     <font>
+                        <Font name="Futura Md BT Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="724.0" layoutY="632.0" text="Membuat Konten Membersihkan Sungai" textFill="WHITE">
+                     <font>
+                        <Font name="Futura Md BT Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="724.0" layoutY="961.0" prefWidth="523.0" text="Pandawara adalah kelompok yang terkenal di Indonesia karena mendedikasikan" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="724.0" layoutY="978.0" prefWidth="523.0" text="diri mereka pada kegiatan-kegiatan sosial dan lingkungan. Salah satu kegiatan" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="724.0" layoutY="995.0" prefWidth="523.0" text="utama mereka adalah melakukan bersih-bersih di berbagai tempat yang" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="724.0" layoutY="1012.0" prefWidth="523.0" text="terabaikan, seperti sungai, pantai, dan area umum lainnya. Kelompok ini " textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="724.0" layoutY="1029.0" prefWidth="523.0" text="terdiri dari anak-anak muda yang memiliki semangat tinggi untuk menjaga" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="724.0" layoutY="1046.0" prefWidth="523.0" text="kebersihan lingkungan dan memberikan contoh positif bagi masyarakat." textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="726.0" layoutY="932.0" prefHeight="20.0" prefWidth="271.0" text="ADMIN - FOREST FORCE, Rabu 8 Juli 2024">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="279.0" fitWidth="453.0" layoutX="726.0" layoutY="1169.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Screenshot%20(273).png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="725.0" layoutY="1112.0" prefHeight="26.0" prefWidth="443.0" text="Komunitas GO GREEN Melakukan Aksi" textFill="WHITE">
+                     <font>
+                        <Font name="Futura Md BT Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="725.0" layoutY="1135.0" text="Membersihkan Lingkungan" textFill="WHITE">
+                     <font>
+                        <Font name="Futura Md BT Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="724.0" layoutY="1495.0" prefWidth="523.0" text="Di tengah meningkatnya kesadaran akan pentingnya menjaga kebersihan dan" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="724.0" layoutY="1512.0" prefWidth="523.0" text="kelestarian lingkungan, komunitas GO GREEN muncul sebagai salah satu" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="724.0" layoutY="1529.0" prefWidth="523.0" text="pionir dalam aksi nyata untuk menciptakan lingkungan yang lebih bersih" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="724.0" layoutY="1546.0" prefWidth="523.0" text="dan sehat. Komunitas ini terdiri dari berbagai kalangan, mulai dari anak-anak" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="724.0" layoutY="1563.0" prefWidth="523.0" text="muda hingga orang dewasa yang peduli terhadap isu lingkungan." textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="726.0" layoutY="1468.0" prefHeight="20.0" prefWidth="271.0" text="ADMIN - FOREST FORCE, Rabu 8 Juli 2024">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="37.0" layoutY="125.0" text="Cegah Abrasi, Alfamart Tanam 25.000 Bibit" textFill="WHITE">
+                     <font>
+                        <Font name="Futura Md BT Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="37.0" layoutY="151.0" text="Mangrove di Muara Gembong" textFill="WHITE">
+                     <font>
+                        <Font name="Futura Md BT Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="265.0" fitWidth="416.0" layoutX="37.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Screenshot%20(283).png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="37.0" layoutY="488.0" prefWidth="523.0" text="Alfamart memberikan kontribusinya terhadap pelestarian lingkungan. Salah satu" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="37.0" layoutY="505.0" prefWidth="523.0" text="yang dilakukan yakni menanam 25.000 bibit pohon mangrove di Kecamatan Muara" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="37.0" layoutY="522.0" prefWidth="523.0" text="Gembong, Kabupaten Bekasi, Jawa Barat, beberapa waktu lalu. Corporate Affairs" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="37.0" layoutY="539.0" prefWidth="523.0" text="Director Alfamart, Solihin mengatakan aksi CSR penanaman 25.000 mangrove ini" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="37.0" layoutY="556.0" prefWidth="523.0" text="rangkaian dalam menyambut Semarak Ulang Tahun Alfamart (SUA) ke-25." textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="39.0" layoutY="459.0" prefHeight="20.0" prefWidth="271.0" text="ADMIN - FOREST FORCE, Rabu 8 Juli 2024">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="37.0" layoutY="611.0" text="Pemkab Blitar Luncurkan Inovasi Balitar On " textFill="WHITE">
+                     <font>
+                        <Font name="Futura Md BT Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="37.0" layoutY="634.0" text="di Hari Lingkungan Hidup Sedunia " textFill="WHITE">
+                     <font>
+                        <Font name="Futura Md BT Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="267.0" fitWidth="403.0" layoutX="37.0" layoutY="665.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Screenshot%20(285).png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="37.0" layoutY="977.0" prefWidth="523.0" text="Bupati Blitar Hj Rini Syarifah menghadiri Peringatan Hari Lingkungan Hidup Sedunia" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="37.0" layoutY="994.0" prefWidth="523.0" text="Tahun 2024 bertema “Penyelesaian Krisis Iklim Dengan Inovasi Dan Prinsip Keadilan" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="37.0" layoutY="1011.0" prefWidth="523.0" text="di Ruang Terbuka Hijau (RTH) Kanigoro, Kabupaten Blitar, Rabu (3/7/2024). Tema itu" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="37.0" layoutY="1028.0" prefWidth="523.0" text="dipilih sebagai pengingat sekaligus ajakan bahwa penyelesaian akar masalah krisis" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="37.0" layoutY="1045.0" prefWidth="523.0" text="iklim harus diselesaikan dengan inovasi dan konsistensi oleh seluruh pemangku" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="37.0" layoutY="1062.0" prefWidth="523.0" text="kepentingan tanpa melupakan prinsip keadilan serta inklusivitas." textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="39.0" layoutY="948.0" prefHeight="20.0" prefWidth="271.0" text="ADMIN - FOREST FORCE, Rabu 8 Juli 2024">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="37.0" layoutY="1114.0" prefHeight="26.0" prefWidth="443.0" text="Jakarta Masuk 3 Besar Kota Dunia" textFill="WHITE">
+                     <font>
+                        <Font name="Futura Md BT Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="37.0" layoutY="1137.0" text="Berkualitas Udara Terburuk" textFill="WHITE">
+                     <font>
+                        <Font name="Futura Md BT Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="247.0" fitWidth="440.0" layoutX="39.0" layoutY="1180.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Screenshot%20(284).png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="37.0" layoutY="1475.0" prefWidth="523.0" text="Dalam laporan Air Quality Index (AQI) pada kuartal ketiga 2023, Jakarta menempati" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="37.0" layoutY="1492.0" prefWidth="523.0" text="posisi pertama sebagai kota dengan udara terkotor di dunia. Penyebab utamanya" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="37.0" layoutY="1509.0" prefWidth="523.0" text="adalah emisi kendaraan bermotor hingga perilaku masyarakat yang kurang peduli" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="37.0" layoutY="1526.0" prefWidth="523.0" text="terhadap lingkungan. Dalam menanggapi hal tersebut, pemerintah telah merilis" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="37.0" layoutY="1543.0" prefWidth="523.0" text="Bursa Karbon Indonesia atau IDXCarbon." textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="39.0" layoutY="1448.0" prefHeight="20.0" prefWidth="271.0" text="ADMIN - FOREST FORCE, Rabu 8 Juli 2024">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
